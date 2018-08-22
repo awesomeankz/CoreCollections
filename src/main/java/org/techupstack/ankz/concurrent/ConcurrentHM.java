@@ -13,6 +13,10 @@ public class ConcurrentHM {
 
 	private static void callConcurrentHM() {
 		Map<String, String> chm = new ConcurrentHashMap<>(16);
+		chm.put("key1", "Name1");
+		chm.put("key2", "Name2");
+		chm.put("key3", "Name3");
+		System.out.println(chm);
  		
 	}
 
