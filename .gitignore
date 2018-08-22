@@ -1,0 +1,3 @@
+# excluding .class files
+*.class
+/target
